@@ -5,45 +5,45 @@
     <link rel="shortcut icon" href = "favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="greetings">
-        <span class = "welcome">Welcome to Rockel`s Englisher!</span>
-        <span class = "subwelcome">Check your English knowledge with us!</span>
-    </div>
-    <div class="main">
-        <div class="diff">
-            <span class = "lvlexpl">Choose your level:</span><br>
-            <span class = "lvl dbeg">Beginner</span>
-            <span class = "lvl dint">Intermediate</span>
-            <span class = "lvl dadv">Advanced</span>
+    <body>
+        <div class="greetings">
+            <span class = "welcome">Welcome to Rockel`s Englisher!</span>
+            <span class = "subwelcome">Check your English knowledge with us!</span>
         </div>
-        <div class="field" disabled>
-            <div class="card">
-                <span class="word">word</span>
+        <div class="main">
+            <div class="diff">
+                <span class = "lvlexpl">Choose your level:</span><br>
+                <span class = "lvl dbeg">Beginner</span>
+                <span class = "lvl dint">Intermediate</span>
+                <span class = "lvl dadv">Advanced</span>
             </div>
-            <div class="pos">
-                0/0
-            </div>
-            <form class="answer">
-                <input id = "ans" type="text" placeholder="переклад" disabled autocomplete="off">
-            </form>
-            <div class="info">
-                <span>Statistics</span>
-                <div class="statblock">
-                    <div class="corr">
-                        Correct: <span id="corrnum">0</span>
-                        <div class="ghost" id = "corrghost">+1</div>
-                    </div>
-                    <div class="uncorr">
-                        Uncorrect: <span id="uncorrnum">0</span>
-                        <div class="ghost" id = "uncorrghost">+1</div>
+            <div class="field" disabled>
+                <div class="card">
+                    <span class="word">word</span>
+                </div>
+                <div class="pos">
+                    0/0
+                </div>
+                <form class="answer">
+                    <input id = "ans" type="text" placeholder="переклад" disabled autocomplete="off">
+                </form>
+                <div class="info">
+                    <span>Statistics</span>
+                    <div class="statblock">
+                        <div class="corr">
+                            Correct: <span id="corrnum">0</span>
+                            <div class="ghost" id = "corrghost">+1</div>
+                        </div>
+                        <div class="uncorr">
+                            Uncorrect: <span id="uncorrnum">0</span>
+                            <div class="ghost" id = "uncorrghost">+1</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
-</body>
+        <script src="jquery-3.6.0.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
